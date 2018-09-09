@@ -1,7 +1,7 @@
 FROM alpine
 LABEL maintainer "j"
 
-RUN apk update && apk --no-cache add python3 py3-setuptools py3-pip curl supervisor
+RUN apk --update --no-cache add python3 py3-setuptools py3-pip curl supervisor tzdata nodejs nodejs-npm
 
 EXPOSE 9001
 
