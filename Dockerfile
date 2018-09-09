@@ -1,7 +1,7 @@
 FROM alpine
 LABEL maintainer "j"
 
-RUN apk --update --no-cache add python3 py3-setuptools py3-pip curl supervisor tzdata gettext libintl nodejs nodejs-npm
+RUN apk --update --no-cache add python3 py3-setuptools py3-pip curl supervisor tzdata gettext nodejs npm
 
 EXPOSE 9001
 
